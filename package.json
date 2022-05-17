@@ -1,0 +1,27 @@
+{
+  "name": "jenkis",
+  "version": "1.0.0",
+  "description": "App Jenkis Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ERICK-ZABALA/jenkis.git"
+  },
+  "author": "Erick Zabala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ERICK-ZABALA/jenkis/issues"
+  },
+  "homepage": "https://github.com/ERICK-ZABALA/jenkis#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  }
+}
